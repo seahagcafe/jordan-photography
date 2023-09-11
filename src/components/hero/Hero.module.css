@@ -1,0 +1,50 @@
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1471981172431-b1c4155be4b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    height: calc(100vh - 70px);
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.about {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    background-color: rgba(250, 249, 247, 0.7);;
+    border-radius: 5%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+
+}
+
+.cropper {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.jordan_phto {
+    display: inline;
+    margin: 0 auto;
+    /* margin-left: -5%; */
+    height: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
