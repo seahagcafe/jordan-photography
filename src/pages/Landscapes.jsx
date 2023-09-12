@@ -1,8 +1,9 @@
 import React from 'react';
+import Gallery from '../components/gallery/Gallery'
 
 function About() {
     return (
-    <h1>my story and how to contact me</h1>
+        <Gallery />
     );
 }
 

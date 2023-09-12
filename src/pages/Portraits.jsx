@@ -2,7 +2,7 @@ import React from 'react';
 
 function Portfolio() {
     return (
-    <h1>browse the portfolio</h1>
+    <h1>portraits</h1>
     );
 }
 
